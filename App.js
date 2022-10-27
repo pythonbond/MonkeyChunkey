@@ -74,7 +74,10 @@ import PhonicSoundButton from './components/PhonicSoundButton';
   }
 }
 
-
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#b8b8b8',
   },
   inputBox: {
     marginTop: 50,

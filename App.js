@@ -12,7 +12,13 @@ import { Header } from 'react-native-elements';
 import db from './localdb';
 import PhonicSoundButton from './components/PhonicSoundButton';
 
-
+  constructor() {
+    super();
+    this.state = {
+      text: '',
+      chunks: [],
+      phonicSounds: [],
+    };
   }
   render() {
     return (

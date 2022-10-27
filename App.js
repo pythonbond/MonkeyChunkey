@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 import { Header } from 'react-native-elements';
 import db from './localdb';
-
+import PhonicSoundButton from './components/PhonicSoundButton';
 
 
   }
